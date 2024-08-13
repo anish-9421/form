@@ -1,0 +1,9 @@
+
+    let arr= ["Anish","Shubhay","Sudhanshu","Bikram","Badal"];
+
+   arr.forEach((element,i) => {
+
+    console.log("the "+(i+1)+"student is:"+element);
+   });
+
+    

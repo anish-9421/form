@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Form
+    </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <h1>Form Filling</h1>
+    <form>
+        <p>First Name:</p>
+        <input  type="text"required minlength="3" maxlength="10" placeholder="YourName">
+        <p>Last Name:</p>
+        <input type="text"required minlength="3" maxlength="10" placeholder="last name">
+ 
+        <p>Email:</p>
+        <input type="email"required minlength="3" maxlength="30" placeholder="Email">
+        <p>DOB:</p>
+        <input type="date"required min="2000-08-10"max="2024-08-29" placeholder="DOB">
+        <p>Phone Number:</p>
+        <input type="tel"required pattern="[6789][0-9]{9}" placeholder="Mobile">
+        <p>Address:
+
+        </p>
+        <input type="text"required placeholder="Address">
+        <p>Message</p>
+        <textarea rows="5"  placeholder="Message"></textarea>
+        <input type="submit"required value="send">
+
+    </Form>
+
+
+
+</body>
+
+
+</html>
